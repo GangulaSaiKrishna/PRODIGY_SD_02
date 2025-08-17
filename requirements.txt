@@ -1,0 +1,2 @@
+# requirements.txt
+tkinter  # usually comes pre-installed with Python
