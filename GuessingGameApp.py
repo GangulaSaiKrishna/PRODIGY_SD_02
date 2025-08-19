@@ -2,7 +2,7 @@ import tkinter as tk
 import random
 
 class GuessingGameApp:
-    def __init__(self, root):   # ✅ should be __init__, not _init_
+    def __init__(self, root):   #  should be __init__, not _init_
         self.root = root
         self.root.title("Guessing Game")
         self.root.geometry("350x250")
@@ -61,7 +61,7 @@ class GuessingGameApp:
         self.attempts_label.config(text="Attempts: 0")
 
 # Run app
-if __name__ == "__main__":   # ✅ should be __name__, not _name_
+if __name__ == "__main__":   #  should be __name__, not _name_
     root = tk.Tk()
     app = GuessingGameApp(root)
     root.mainloop()
